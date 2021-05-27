@@ -4,7 +4,7 @@
   "description": "Ethereum blockchain explorer",
   "main": "index.js",
   "scripts": {
-    "start": "export NODE_ENV=ropsten && nodemon index.js --trace-sync-io",
+    "start": "export NODE_ENV=test && nodemon index.js --trace-sync-io",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "standard --verbose --fix --global describe --global it | snazzy"
   },
